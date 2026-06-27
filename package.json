@@ -1,0 +1,19 @@
+{
+  "name": "random-movie-generator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free Random Movie Generator — discover your next favorite film instantly by genre, with posters, ratings, trailers, and IMDb links.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": ["random movie generator", "movie picker", "film discovery", "TMDB", "Next.js"],
+  "license": "MIT",
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
