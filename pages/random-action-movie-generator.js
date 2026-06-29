@@ -84,7 +84,7 @@ export default function ActionMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1574267432553-4b4628081c31?w=700&q=80"
+                src="/movies.jpg"
                 alt="Explosive action movie scene representing high-intensity action filtering"
                 loading="lazy"
               />
@@ -103,7 +103,7 @@ export default function ActionMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1517602302552-471fe67acf66?w=700&q=80"
+                src="/action.jpg"
                 alt="International action cinema representing the language filter"
                 loading="lazy"
               />
@@ -122,7 +122,7 @@ export default function ActionMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?w=700&q=80"
+                src="/darkmovie.jpg"
                 alt="Mood-based filtering for dark and intense action films"
                 loading="lazy"
               />
