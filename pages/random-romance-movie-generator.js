@@ -84,7 +84,7 @@ export default function RomanceMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1518895949257-7621c3c786d7?w=700&q=80"
+                src="/wall.jpg"
                 alt="Couple watching a romantic movie together representing romantic mood filtering"
                 loading="lazy"
               />
@@ -103,7 +103,7 @@ export default function RomanceMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1526374870839-e155464bb9b2?w=700&q=80"
+                src="/french.jpg"
                 alt="World cinema posters representing international romance language filtering"
                 loading="lazy"
               />
@@ -122,7 +122,7 @@ export default function RomanceMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=700&q=80"
+                src="/romance.jpg"
                 alt="Vintage film strip representing decade-based romance filtering"
                 loading="lazy"
               />
