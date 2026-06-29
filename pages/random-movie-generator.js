@@ -139,7 +139,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1526374870839-e155464bb9b2?w=700&q=80"
+                src="/movierandom.jpg"
                 alt="World map and globe representing multi-language film filtering"
                 loading="lazy"
               />
@@ -158,7 +158,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=700&q=80"
+                src="/movierandom.jpg"
                 alt="Gold star rating graphic representing the minimum rating filter"
                 loading="lazy"
               />
@@ -177,7 +177,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1495467033336-2effd8753821?w=700&q=80"
+                src="/moviegenerator.jpg"
                 alt="Clock and stopwatch representing the runtime filter"
                 loading="lazy"
               />
