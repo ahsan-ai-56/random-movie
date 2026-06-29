@@ -139,7 +139,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="/familymovies.jpg"
+                src="/indianmovie.jpg"
                 alt="World map and globe representing multi-language film filtering"
                 loading="lazy"
               />
@@ -196,7 +196,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="/indianmovie.jpg"
+                src="/familymovies.jpg"
                 alt="Theatrical masks representing mood-based movie filtering"
                 loading="lazy"
               />
