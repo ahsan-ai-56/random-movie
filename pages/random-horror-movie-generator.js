@@ -84,7 +84,7 @@ export default function HorrorMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=700&q=80"
+                src="horor.jpg"
                 alt="Dark eerie hallway representing dark and intense horror mood filtering"
                 loading="lazy"
               />
@@ -102,7 +102,7 @@ export default function HorrorMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1626544827763-d516dce335e2?w=700&q=80"
+                src="/house.jpg"
                 alt="International horror cinema poster wall representing the language filter"
                 loading="lazy"
               />
@@ -120,7 +120,7 @@ export default function HorrorMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?w=700&q=80"
+                src="/horormovie.jpg"
                 alt="Vintage horror film clock representing runtime filtering for horror movies"
                 loading="lazy"
               />
