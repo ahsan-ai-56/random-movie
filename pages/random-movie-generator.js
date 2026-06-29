@@ -139,7 +139,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="/movierandom.jpg"
+                src="/public/movierandom.jpg"
                 alt="World map and globe representing multi-language film filtering"
                 loading="lazy"
               />
