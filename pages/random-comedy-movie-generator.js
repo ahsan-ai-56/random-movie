@@ -84,7 +84,7 @@ export default function ComedyMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?w=700&q=80"
+                src="/funnymovie.jpg"
                 alt="Audience laughing representing comedy mood filtering"
                 loading="lazy"
               />
@@ -103,7 +103,7 @@ export default function ComedyMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=700&q=80"
+                src="/funny.jpg"
                 alt="Classic film reels representing decade-based comedy filtering"
                 loading="lazy"
               />
@@ -121,7 +121,7 @@ export default function ComedyMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1481277542470-605612bd2d61?w=700&q=80"
+                src="/comedy.jpg"
                 alt="Family watching a movie together representing family friendly comedy mood"
                 loading="lazy"
               />
