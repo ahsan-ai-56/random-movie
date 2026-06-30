@@ -1,9 +1,18 @@
 // components/Seo.js
 import Head from "next/head";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://randommoviegenerator.site";
+// Strip any trailing slash from the env var so concatenating a path that
+// starts with "/" never produces a double slash (e.g. "https://site.com//").
+const RAW_SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://randommoviegenerator.site";
+const SITE_URL = RAW_SITE_URL.replace(/\/+$/, "");
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
+// Joins SITE_URL with a path safely, guaranteeing exactly one slash between
+// them and no trailing slash unless the path itself is just "/".
+function buildUrl(path = "/") {
+  const cleanPath = path.startsWith("/") ? path : `/${path}`;
+  return cleanPath === "/" ? `${SITE_URL}/` : `${SITE_URL}${cleanPath}`;
+}
 /**
  * Centralized SEO head tags: title, description, keywords, robots,
  * canonical, Open Graph, Twitter Card, and any JSON-LD schema objects.
@@ -12,7 +21,7 @@ const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
  * separate <script type="application/ld+json"> tags.
  */
 export default function Seo({ title, description, keywords, path = "/", image, schemas = [] }) {
-  const canonical = `${SITE_URL}${path}`;
+  const canonical = buildUrl(path);
   const ogImage = image || DEFAULT_IMAGE;
 
   return (
@@ -60,7 +69,7 @@ export function breadcrumbSchema(items) {
       "@type": "ListItem",
       position: i + 1,
       name: item.label,
-      item: `${SITE_URL}${item.href || ""}`,
+      item: buildUrl(item.href || "/"),
     })),
   };
 }
@@ -83,7 +92,7 @@ export function webPageSchema({ title, description, path }) {
     "@type": "WebPage",
     name: title,
     description,
-    url: `${SITE_URL}${path}`,
+    url: buildUrl(path),
   };
 }
 
@@ -93,7 +102,7 @@ export function softwareApplicationSchema({ name, description, path }) {
     "@type": "SoftwareApplication",
     name,
     description,
-    url: `${SITE_URL}${path}`,
+    url: buildUrl(path),
     applicationCategory: "EntertainmentApplication",
     operatingSystem: "Any (Web Browser)",
     offers: {
