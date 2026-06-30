@@ -102,7 +102,7 @@ export default function SciFiMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1446776709462-d6b525c57bd3?w=700&q=80"
+                src="/scific.jpg"
                 alt="Futuristic city skyline representing rating filtering for acclaimed sci-fi"
                 loading="lazy"
               />
@@ -120,7 +120,7 @@ export default function SciFiMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1500964757637-c85e8a162699?w=700&q=80"
+                src=/"sci.jpg"
                 alt="Astronaut in space representing decade-based sci-fi filtering"
                 loading="lazy"
               />
