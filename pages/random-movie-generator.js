@@ -119,7 +119,7 @@ export default function RandomMovieGeneratorPage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1485846234645-a62644f84728?w=700&q=80"
+                src="/ahsanthriler.jpg"
                 alt="Old film countdown numbers representing release year filtering"
                 loading="lazy"
               />
