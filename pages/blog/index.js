@@ -40,9 +40,14 @@ export default function BlogIndex() {
       <div className="blog-grid">
         {BLOG_POSTS.map((post) => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="blog-card">
-            <div className="blog-card-img" style={{ background: `${post.color}1a` }}>
-              {post.icon}
-            </div>
+            <div className="blog-card-img">
+  <img
+    src={post.image}
+    alt={post.title}
+    loading="lazy"
+    style={{ width: "100%", height: "100%", objectFit: "cover" }}
+  />
+</div>
             <div className="blog-card-body">
               <span className="blog-card-tag">{post.tag}</span>
               <h3>{post.title}</h3>
