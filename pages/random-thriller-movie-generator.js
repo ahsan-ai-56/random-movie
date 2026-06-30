@@ -84,7 +84,7 @@ export default function ThrillerMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=700&q=80"
+                src="/thriler.jpg"
                 alt="Dark suspenseful corridor representing dark and intense thriller mood filtering"
                 loading="lazy"
               />
@@ -102,7 +102,7 @@ export default function ThrillerMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1495467033336-2effd8753821?w=700&q=80"
+                src="/thriller.jpg"
                 alt="Clock ticking down representing runtime filtering for thriller pacing"
                 loading="lazy"
               />
@@ -121,7 +121,7 @@ export default function ThrillerMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1598899134739-24c46f58b8c0?w=700&q=80"
+                src="/thril.jpg"
                 alt="Gold rating stars representing minimum rating filtering for thrillers"
                 loading="lazy"
               />
