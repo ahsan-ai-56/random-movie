@@ -1,7 +1,7 @@
 // components/Seo.js
 import Head from "next/head";
 
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://randommoviegenerator.com";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://randommoviegenerator.site/";
 const DEFAULT_IMAGE = `${SITE_URL}/og-image.jpg`;
 
 /**
