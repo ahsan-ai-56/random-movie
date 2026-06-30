@@ -120,7 +120,7 @@ export default function SciFiMoviePage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src=/"sci.jpg"
+                src="/sci.jpg"
                 alt="Astronaut in space representing decade-based sci-fi filtering"
                 loading="lazy"
               />
