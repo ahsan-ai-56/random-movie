@@ -102,7 +102,7 @@ export default function AnimatedMoviePage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?w=700&q=80"
+                src="/animat.jpg"
                 alt="Anime-style cityscape art representing Japanese animation language filtering"
                 loading="lazy"
               />
