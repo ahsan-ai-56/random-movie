@@ -23,6 +23,7 @@ export default function Seo({ title, description, keywords, path = "/", image, s
       <meta name="robots" content="index, follow" />
       <link rel="canonical" href={canonical} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="icon" href="/favicon.png" type="image/png" />
 
       {/* Open Graph */}
       <meta property="og:title" content={title} />
