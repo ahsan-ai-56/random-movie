@@ -84,7 +84,7 @@ export default function DocumentaryPage() {
           <div className="feature-row">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1500534623283-312aade485b7?w=700&q=80"
+                src="/document.jpg"
                 alt="Old film camera representing rating filtering for acclaimed documentaries"
                 loading="lazy"
               />
@@ -102,7 +102,7 @@ export default function DocumentaryPage() {
           <div className="feature-row feature-row--reverse">
             <div className="feature-row-media">
               <img
-                src="https://images.unsplash.com/photo-1495467033336-2effd8753821?w=700&q=80"
+                src="/documentry.jpg"
                 alt="Hourglass representing runtime filtering for documentary length"
                 loading="lazy"
               />
