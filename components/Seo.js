@@ -33,7 +33,7 @@ export default function Seo({ title, description, keywords, path = "/", image, s
       <link rel="canonical" href={canonical} />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.png" type="image/png" />
-
+      <meta name="google-site-verification" content="AXK_jOdTFsny40l_daI0qp45YAu7yECrcIzYSiV11xw" />
       {/* Open Graph */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
